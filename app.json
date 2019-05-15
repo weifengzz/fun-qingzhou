@@ -1,35 +1,35 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/home/screens/home",
-    "pages/task/screens/task",
-    "pages/city/screens/city",
-    "pages/profile/screens/profile"
+    "pages/home/pages/home/home",
+    "pages/task/pages/task/task",
+    "pages/city/pages/city/city",
+    "pages/profile/pages/profile/profile"
   ],
   "tabBar": {
     "color": "",
     "selectedColor": "#6F98E3",
     "list": [
       {
-        "pagePath": "pages/home/screens/home",
+        "pagePath": "pages/home/pages/home/home",
         "iconPath": "assets/icons/tabBar_mine.png",
         "selectedIconPath": "assets/icons/tabBar_Smine.png",
         "text": "首页"
       },
       {
-        "pagePath": "pages/task/screens/task",
+        "pagePath": "pages/task/pages/task/task",
         "iconPath": "assets/icons/tabBar_mine.png",
         "selectedIconPath": "assets/icons/tabBar_Smine.png",
         "text": "任务"
       },
       {
-        "pagePath": "pages/city/screens/city",
+        "pagePath": "pages/city/pages/city/city",
         "iconPath": "assets/icons/tabBar_mine.png",
         "selectedIconPath": "assets/icons/tabBar_Smine.png",
         "text": "古城"
       },
       {
-        "pagePath": "pages/profile/screens/profile",
+        "pagePath": "pages/profile/pages/profile/profile",
         "iconPath": "assets/icons/tabBar_mine.png",
         "selectedIconPath": "assets/icons/tabBar_Smine.png",
         "text": "我的"

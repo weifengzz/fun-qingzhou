@@ -14,7 +14,7 @@ const navigateHome = () => {
   setTimeout(() => {
     // 跳转到首页界面
     wx.switchTab({
-      url: '/pages/home/screens/home'
+      url: '/pages/home/pages/home/home'
     })
   }, 1000)
 }
