@@ -4,7 +4,8 @@
     "pages/home/pages/home/home",
     "pages/task/pages/task/task",
     "pages/city/pages/city/city",
-    "pages/profile/pages/profile/profile"
+    "pages/profile/pages/profile/profile",
+    "pages/city/pages/detail/city_detail"
   ],
   "tabBar": {
     "color": "",

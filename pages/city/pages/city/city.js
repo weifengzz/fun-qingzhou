@@ -348,6 +348,17 @@ Page({
         latitude: that.data.markers[0].latitude
       }
     })
-    console.log(e)
+  },
+
+  /**
+   * 点击气泡
+   */
+
+  callouttap: function (e) {
+    wx.navigateTo(
+      {
+        url: '/pages/city/pages/detail/city_detail?path=http://www.baxily.cn/&title=八喜旅游网'
+      }
+    )
   }
 })

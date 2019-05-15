@@ -1,0 +1,2 @@
+<!--pages/city/pages/detail/city_detail.wxml-->
+<web-view src="{{url}}" />
