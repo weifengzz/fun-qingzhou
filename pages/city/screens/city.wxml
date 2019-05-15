@@ -1,0 +1,6 @@
+<!--pages/city/screens/city.wxml-->
+<map id="city" class="map" longitude="{{location.longitude}}" latitude="{{location.latitude}}" scale="{{scale}}" controls="{{controls}}" bindregionchange="bindregionchange" markers="{{markers}}" bindmarkertap="markertap" polyline="{{polyline}}"  show-location>
+  <!-- <cover-view>
+    <cover-image src= "/assets/images/bg_img.jpg" style="height: 200rpx;width: 100rpx;" />
+  </cover-view> -->
+</map>

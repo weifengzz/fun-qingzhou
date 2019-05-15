@@ -1,0 +1,53 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+}
+/**主题色**/
+.primary-color {
+  background-color: #6F98E3;
+}
+/**界面浅背景色**/
+.primary-light-bg-color {
+  background-color: #F7F7F7;
+}
+/**文字主题色**/
+.text-primary-color {
+  color: #6F98E3;
+}
+/**文字深色**/
+.text-dark-color {
+  color: #505050;
+}
+/**文字中色**/
+.text-middle-color {
+  color: #B4B4B4;
+}
+/**文字浅色**/
+.text-light-color {
+  color: #B4B4B4;
+}
+/**大文字**/
+.text-large-size {
+  font-size: 36rpx;
+}
+/**中文字**/
+.text-middle-size {
+  font-size: 32rpx;
+}
+/**小文字**/
+.text-middle-size {
+  font-size: 28rpx;
+}
+/**内容padding间距**/
+.container-padding {
+  padding: 30rpx;
+}
+
+/**控制文本显示一行**/
+.number-of-lines-1 {
+  overflow:hidden;
+  text-overflow:ellipsis;
+  display:-webkit-box;
+  -webkit-box-orient:vertical;
+  -webkit-line-clamp:1;
+}

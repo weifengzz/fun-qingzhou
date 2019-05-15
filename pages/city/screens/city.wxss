@@ -1,0 +1,9 @@
+/* pages/city/screens/city.wxss */
+page {
+  height: 100%;
+  width: 100%;
+}
+.map {
+  height: 100%;
+  width: 100%;
+}

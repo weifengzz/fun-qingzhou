@@ -1,0 +1,15 @@
+<!--index.wxml-->
+<view>
+  <view class="userinfo">
+    <image bindtap="bindViewTap" class="logo" src="/assets/icons/logo.png" mode="cover"></image>
+    <button class='button primary-color' wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo">登录</button>
+    <block wx:else>
+      <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+  <view class="usermotto">
+    <text class="company-motto text-light-color">山东任性网络科技有限公司</text>
+    <text class="company-motto text-light-color">八喜旅游网</text>
+  </view>
+</view>
