@@ -4,5 +4,15 @@
   class="video"
   src="https://video.pearvideo.com/mp4/adshort/20190515/cont-1554550-13909359_adpkg-ad_hd.mp4" controls>
   </video> -->
-  <banner banners="{{banners}}" />
+  <scroll-view scroll-y class="scroll-view">
+    <banner banners="{{banners}}" />
+    <block wx:for="{{datas}}" wx:key="{{id}}">
+      <view wx:if="{{item.type === '1'}}">
+        <big-img-item data="{{item}}" />
+      </view>
+      <view wx:if="{{item.type === '2'}}">
+        <three-imgs-item data="{{item}}" />
+      </view>
+    </block>
+  </scroll-view>
 </view>

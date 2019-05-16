@@ -1,5 +1,18 @@
 const DATAS = [
   {
+    "id": "6",
+    "type": "1",
+    "cover_img": "",
+    "video_url": "",
+    "title": "寻梦古城台儿庄，走不出梦的彷徨",
+    "url": "",
+    "content": "如果说周庄是怀旧，平遥是疗伤，丽江是艳遇，那台儿庄则是梦乡。她神秘而悠远，几百年来，静静地散发着古运河的幽香，向世人展示着那绚丽多姿、别具风情的画卷。台儿庄，我寻梦的地方。",
+    "imgs": [],
+    "big_img": "http://test-oss-0.oss-cn-qingdao.aliyuncs.com/product-dir/baxily/tDHQnXMZYs1519896120651.png",
+    "source": "八喜旅游网",
+    "comment": "176"
+  },
+  {
     "id": "1",
     "type": "2",
     "cover_img": "",
@@ -11,7 +24,9 @@ const DATAS = [
       "http://test-oss-0.oss-cn-qingdao.aliyuncs.com/product-dir/baxily/xTtxtKNjsc1545184903690.png",
       "http://test-oss-0.oss-cn-qingdao.aliyuncs.com/product-dir/baxily/zTD2azFJeX1545184905814.jpg",
       "http://test-oss-0.oss-cn-qingdao.aliyuncs.com/product-dir/baxily/aimJ2HGdiW1545184907597.jpg"
-    ]
+    ],
+    "source": "八喜旅游网",
+    "comment": "176"
   },
   {
     "id": "2",
@@ -23,17 +38,21 @@ const DATAS = [
     "content": "",
     "imgs": [
       "http://test-oss-0.oss-cn-qingdao.aliyuncs.com/product-dir/baxily/2XQGY34nHM1545182190587.jpg"
-    ]
+    ],
+    "source": "八喜旅游网",
+    "comment": "176"
   },
   {
     "id": "3",
-    "type": "1",
+    "type": "4",
     "cover_img": "https://ss0.bdstatic.com/9bA1vGfa2gU2pMbfm9GUKT-w/timg?wisealaddin&size=f480_270&quality=100&sec=1557965713&di=6f69e9bef212644485dec9daec86240e&src=http%3A%2F%2Ft11.baidu.com%2Fit%2Fu%3D3716320102%2C3979390230%26fm%3D171%26app%3D20%26f%3DJPEG%3Fw%3D640%26h%3D360%26s%3D88011F745872B69E858174840300A0A3",
     "video_url": "https://vdse.bdstatic.com//e1ea1078c16e65e3a25d182b442838f6?authorization=bce-auth-v1/fb297a5cc0fb434c971b8fa103e8dd7b/2017-05-11T09:02:31Z/-1//44bd69b0659e67f5e3f8bb3fd8f374875098800134ff143d45d9235495dcdffc",
     "title": "一分钟带你了解青州古城",
     "url": "",
     "content": "",
-    "imgs": []
+    "imgs": [],
+    "source": "八喜旅游网",
+    "comment": "176"
   },
   {
     "id": "4",
@@ -45,7 +64,9 @@ const DATAS = [
     "content": "",
     "imgs": [
       "http://test-oss-0.oss-cn-qingdao.aliyuncs.com/product-dir/baxily/2XQGY34nHM1545182190587.jpg"
-    ]
+    ],
+    "source": "八喜旅游网",
+    "comment": "176"
   },
   {
     "id": "5",
@@ -59,7 +80,9 @@ const DATAS = [
       "http://test-oss-0.oss-cn-qingdao.aliyuncs.com/product-dir/baxily/xTtxtKNjsc1545184903690.png",
       "http://test-oss-0.oss-cn-qingdao.aliyuncs.com/product-dir/baxily/zTD2azFJeX1545184905814.jpg",
       "http://test-oss-0.oss-cn-qingdao.aliyuncs.com/product-dir/baxily/aimJ2HGdiW1545184907597.jpg"
-    ]
+    ],
+    "source": "八喜旅游网",
+    "comment": "176"
   }
 ]
 

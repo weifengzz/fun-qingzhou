@@ -51,3 +51,12 @@
   -webkit-box-orient:vertical;
   -webkit-line-clamp:1;
 }
+
+/**控制文本显示两行**/
+.number-of-lines-2 {
+  overflow:hidden;
+  text-overflow:ellipsis;
+  display:-webkit-box;
+  -webkit-box-orient:vertical;
+  -webkit-line-clamp:2;
+}

@@ -1,0 +1,2 @@
+<!--components/common/splite_line/splite_line.wxml-->
+<view class='splite-line' style='{{styles}}' />

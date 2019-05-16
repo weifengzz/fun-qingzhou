@@ -10,3 +10,7 @@ page {
   width: 100vw;
   height: 56.25vw;
 }
+
+.scroll-view {
+  height: 100%;
+}

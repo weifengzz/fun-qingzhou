@@ -1,0 +1,33 @@
+/* pages/home/components/big_img_item/big_img_item.wxss */
+@import "/app.wxss";
+
+.content {
+  margin: 30rpx;
+  display: flex;
+  flex-direction: column;
+}
+
+.title-text {
+  font-size: 34rpx;
+  margin-bottom: 30rpx;
+}
+
+.image {
+  width: 100%;
+  height: 60vw;
+}
+
+.bottom {
+  margin-top: 14rpx;
+  margin-bottom: 14rpx;
+  display: flex;
+  align-items: center;
+}
+
+.small-text {
+  font-size: 20rpx;
+}
+
+.commit-text {
+  margin-left: 30rpx;
+}
