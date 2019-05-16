@@ -1,11 +1,8 @@
-<!--pages/home/components/three_imgs_item/three-imgs_item.wxml-->
+<!--pages/home/components/video_item/video_item.wxml-->
 <view class="content">
   <text class="title-text text-dark-color number-of-lines-2">{{data.title}}</text>
-  <view class="imgs-view" >
-    <view wx:for="{{data.imgs}}" wx:key="{{index}}" class="item-view">
-      <image mode='aspectFill' class="img" src='{{item}}' />
-    </view>
-  </view>
+  <video bindplay="play" id="video" title="{{data.title}}" object-fit="cover" poster="{{data.cover_img}}" class="video" src="{{data.video_url}}" controls>
+  </video>
   <view class="bottom">
     <text class='small-text text-light-color'>{{data.source}}</text>
     <text class='small-text text-light-color commit-text'>{{data.comment}}评</text>

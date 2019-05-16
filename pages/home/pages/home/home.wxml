@@ -16,6 +16,9 @@
       <view wx:if="{{item.type === '3'}}">
         <img-item data="{{item}}" />
       </view>
+      <view wx:if="{{item.type === '4'}}">
+        <video-item id="{{'video_' + item.id}}" data-itemData="{{item}}" bind:bindplay="play" data="{{item}}" />
+      </view>
     </block>
   </scroll-view>
 </view>

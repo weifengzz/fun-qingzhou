@@ -128,18 +128,6 @@ const DATAS = [
     "comment": "176"
   },
   {
-    "id": "10",
-    "type": "4",
-    "cover_img": "https://ss0.bdstatic.com/9bA1vGfa2gU2pMbfm9GUKT-w/timg?wisealaddin&size=f480_270&quality=100&sec=1557965713&di=6f69e9bef212644485dec9daec86240e&src=http%3A%2F%2Ft11.baidu.com%2Fit%2Fu%3D3716320102%2C3979390230%26fm%3D171%26app%3D20%26f%3DJPEG%3Fw%3D640%26h%3D360%26s%3D88011F745872B69E858174840300A0A3",
-    "video_url": "https://vdse.bdstatic.com//e1ea1078c16e65e3a25d182b442838f6?authorization=bce-auth-v1/fb297a5cc0fb434c971b8fa103e8dd7b/2017-05-11T09:02:31Z/-1//44bd69b0659e67f5e3f8bb3fd8f374875098800134ff143d45d9235495dcdffc",
-    "title": "一分钟带你了解青州古城",
-    "url": "",
-    "content": "",
-    "imgs": [],
-    "source": "八喜旅游网",
-    "comment": "176"
-  },
-  {
     "id": "11",
     "type": "3",
     "cover_img": "",
@@ -166,6 +154,18 @@ const DATAS = [
       "http://test-oss-0.oss-cn-qingdao.aliyuncs.com/product-dir/baxily/zTD2azFJeX1545184905814.jpg",
       "http://test-oss-0.oss-cn-qingdao.aliyuncs.com/product-dir/baxily/aimJ2HGdiW1545184907597.jpg"
     ],
+    "source": "八喜旅游网",
+    "comment": "176"
+  },
+  {
+    "id": "13",
+    "type": "4",
+    "cover_img": "https://ss0.bdstatic.com/9bA1vGfa2gU2pMbfm9GUKT-w/timg?wisealaddin&size=f480_270&quality=100&sec=1557965713&di=6f69e9bef212644485dec9daec86240e&src=http%3A%2F%2Ft11.baidu.com%2Fit%2Fu%3D3716320102%2C3979390230%26fm%3D171%26app%3D20%26f%3DJPEG%3Fw%3D640%26h%3D360%26s%3D88011F745872B69E858174840300A0A3",
+    "video_url": "https://vdse.bdstatic.com//e1ea1078c16e65e3a25d182b442838f6?authorization=bce-auth-v1/fb297a5cc0fb434c971b8fa103e8dd7b/2017-05-11T09:02:31Z/-1//44bd69b0659e67f5e3f8bb3fd8f374875098800134ff143d45d9235495dcdffc",
+    "title": "一分钟带你了解青州古城",
+    "url": "",
+    "content": "",
+    "imgs": [],
     "source": "八喜旅游网",
     "comment": "176"
   }

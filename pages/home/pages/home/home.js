@@ -1,5 +1,7 @@
 // pages/home/screens/home.js
 
+let video_id = '-1';
+
 Page({
 
   /**
@@ -70,5 +72,13 @@ Page({
    */
   onShareAppMessage: function () {
 
+  },
+  play: function(e) {
+    var that = this
+    if (video_id !== '-1') {
+      var video = that.selectComponent('#video_' + video_id)
+      video.paused()
+    }
+    video_id = e.currentTarget.dataset.itemdata.id
   }
 })
