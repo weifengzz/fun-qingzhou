@@ -80,5 +80,26 @@ Page({
       video.paused()
     }
     video_id = e.currentTarget.dataset.itemdata.id
+  },
+  scroll: function(e) {
+    var that = this
+    if (video_id !== '-1') {
+      wx.getSystemInfo({
+        success: function (res) {
+          // 获取可使用窗口高度
+          let clientHeight = res.windowHeight;
+          const query = wx.createSelectorQuery()
+          query.select('#video_' + video_id).boundingClientRect()
+          query.selectViewport().scrollOffset()
+          query.exec(function (res) {
+            if (res[0].bottom < 0 || res[0].bottom > (clientHeight + res[0].height)) {
+              var video = that.selectComponent('#video_' + video_id)
+              video.paused()
+              video_id = '-1'
+            }
+          })
+        }
+      })
+    }
   }
 })

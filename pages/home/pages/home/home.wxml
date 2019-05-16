@@ -4,7 +4,7 @@
   class="video"
   src="https://video.pearvideo.com/mp4/adshort/20190515/cont-1554550-13909359_adpkg-ad_hd.mp4" controls>
   </video> -->
-  <scroll-view scroll-y class="scroll-view">
+  <scroll-view bindscroll="scroll" scroll-y class="scroll-view">
     <banner banners="{{banners}}" />
     <block wx:for="{{datas}}" wx:key="{{id}}">
       <view wx:if="{{item.type === '1'}}">
