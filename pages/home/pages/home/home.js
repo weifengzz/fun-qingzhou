@@ -87,6 +87,7 @@ Page({
     if (video_id !== '-1') {
       wx.getSystemInfo({
         success: function (res) {
+          that.query = wx.createSelectorQuery()
           // 获取可使用窗口高度
           let clientHeight = res.windowHeight;
           that.query.select('#video_' + video_id).boundingClientRect()
