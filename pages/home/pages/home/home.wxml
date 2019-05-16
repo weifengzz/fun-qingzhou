@@ -2,7 +2,7 @@
 <view class="content">
   <list-view emptyText='没有数据' length='{{datas.length}}' noMore="{{false}}" bind:onRefresh='onRefresh' bind:onLoadMore='onLoadMore' bind:bindScroll="scroll" scroll-y class="scroll-view">
     <banner banners="{{banners}}" />
-    <block wx:for="{{datas}}" wx:key="{{index}}">
+    <block wx:for="{{datas}}" wx:key="{{id}}">
       <view wx:if="{{item.type === '1'}}">
         <big-img-item data="{{item}}" />
       </view>

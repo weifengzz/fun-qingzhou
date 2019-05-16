@@ -103,23 +103,27 @@ Page({
       })
     }
   },
-  onLoadMore: function () {
+  onLoadMore: function (e) {
     var that = this
-    const { datas } = require('./data.js')
+    const { datas } = require('./data1.js')
     let d = Object.assign([], that.data.datas)
     setTimeout(() => {
       that.setData({
         datas: [...d, ...datas]
       })
+      var callback = e.detail;
+      callback.success()
     }, 2000)
   },
-  onRefresh: function () {
+  onRefresh: function (e) {
     var that = this
     const { datas } = require('./data.js')
     setTimeout(() => {
       that.setData({
         datas
       })
+      var callback = e.detail;
+      callback.success()
     }, 2000)
   }
 })
