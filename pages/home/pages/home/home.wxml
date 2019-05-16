@@ -4,5 +4,5 @@
   class="video"
   src="https://video.pearvideo.com/mp4/adshort/20190515/cont-1554550-13909359_adpkg-ad_hd.mp4" controls>
   </video> -->
-  <banner />
+  <banner banners="{{banners}}" />
 </view>

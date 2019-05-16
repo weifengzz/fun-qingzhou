@@ -5,7 +5,8 @@
     "pages/task/pages/task/task",
     "pages/city/pages/city/city",
     "pages/profile/pages/profile/profile",
-    "pages/city/pages/detail/city_detail"
+    "pages/city/pages/detail/city_detail",
+    "pages/home/pages/banner_detail/banner_detail"
   ],
   "tabBar": {
     "color": "",
