@@ -23,6 +23,7 @@ Page({
       banners,
       datas
     })
+    that.query = wx.createSelectorQuery()
   },
 
   /**
@@ -88,13 +89,12 @@ Page({
         success: function (res) {
           // 获取可使用窗口高度
           let clientHeight = res.windowHeight;
-          const query = wx.createSelectorQuery()
-          query.select('#video_' + video_id).boundingClientRect()
-          query.selectViewport().scrollOffset()
-          query.exec(function (res) {
+          that.query.select('#video_' + video_id).boundingClientRect()
+          that.query.selectViewport().scrollOffset()
+          that.query.exec(function (res) {
             if (res[0].bottom < 0 || res[0].bottom > (clientHeight + res[0].height)) {
               var video = that.selectComponent('#video_' + video_id)
-              video.paused()
+              video && video.paused()
               video_id = '-1'
             }
           })

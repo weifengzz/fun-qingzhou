@@ -1,5 +1,5 @@
 <!--pages/home/components/big_img_item/big_img_item.wxml-->
-<view class="content">
+<view bindtap='onTap' data-data="{{data}}" class="content">
   <text class="title-text text-dark-color number-of-lines-2">{{data.title}}</text>
   <image mode='aspectFill' class="image" src="{{data.big_img}}" />
   <view class="bottom">

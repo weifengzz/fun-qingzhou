@@ -5,7 +5,7 @@ const DATAS = [
     "cover_img": "",
     "video_url": "",
     "title": "寻梦古城台儿庄，走不出梦的彷徨",
-    "url": "",
+    "url": "http://www.baxily.cn/strategy/43",
     "content": "如果说周庄是怀旧，平遥是疗伤，丽江是艳遇，那台儿庄则是梦乡。她神秘而悠远，几百年来，静静地散发着古运河的幽香，向世人展示着那绚丽多姿、别具风情的画卷。台儿庄，我寻梦的地方。",
     "imgs": [],
     "big_img": "http://test-oss-0.oss-cn-qingdao.aliyuncs.com/product-dir/baxily/tDHQnXMZYs1519896120651.png",
@@ -18,7 +18,7 @@ const DATAS = [
     "cover_img": "",
     "video_url": "",
     "title": "山东潍坊诸城野生动物园",
-    "url": "",
+    "url": "http://www.baxily.cn/strategy/43",
     "content": "这不是城市里的动物园，这是建在田野里的真正回归自然的动物园。",
     "imgs": [
       "http://test-oss-0.oss-cn-qingdao.aliyuncs.com/product-dir/baxily/xTtxtKNjsc1545184903690.png",
@@ -34,7 +34,7 @@ const DATAS = [
     "cover_img": "",
     "video_url": "",
     "title": "迈赫机器人大世界位于中生代白垩纪恐龙时代的属地，穿越7000万年，从远古到当今，让游客体验从蛮荒世纪到现代科技的时空转变。",
-    "url": "",
+    "url": "http://www.baxily.cn/strategy/43",
     "content": "",
     "imgs": [
       "http://test-oss-0.oss-cn-qingdao.aliyuncs.com/product-dir/baxily/2XQGY34nHM1545182190587.jpg"
@@ -60,7 +60,7 @@ const DATAS = [
     "cover_img": "",
     "video_url": "",
     "title": "迈赫机器人大世界位于中生代白垩纪恐龙时代的属地，穿越7000万年，从远古到当今，让游客体验从蛮荒世纪到现代科技的时空转变。",
-    "url": "",
+    "url": "http://www.baxily.cn/strategy/43",
     "content": "",
     "imgs": [
       "http://test-oss-0.oss-cn-qingdao.aliyuncs.com/product-dir/baxily/2XQGY34nHM1545182190587.jpg"
@@ -74,7 +74,7 @@ const DATAS = [
     "cover_img": "",
     "video_url": "",
     "title": "山东潍坊诸城野生动物园",
-    "url": "",
+    "url": "http://www.baxily.cn/strategy/43",
     "content": "这不是城市里的动物园，这是建在田野里的真正回归自然的动物园。",
     "imgs": [
       "http://test-oss-0.oss-cn-qingdao.aliyuncs.com/product-dir/baxily/xTtxtKNjsc1545184903690.png",
@@ -90,7 +90,7 @@ const DATAS = [
     "cover_img": "",
     "video_url": "",
     "title": "寻梦古城台儿庄，走不出梦的彷徨",
-    "url": "",
+    "url": "http://www.baxily.cn/strategy/43",
     "content": "如果说周庄是怀旧，平遥是疗伤，丽江是艳遇，那台儿庄则是梦乡。她神秘而悠远，几百年来，静静地散发着古运河的幽香，向世人展示着那绚丽多姿、别具风情的画卷。台儿庄，我寻梦的地方。",
     "imgs": [],
     "big_img": "http://test-oss-0.oss-cn-qingdao.aliyuncs.com/product-dir/baxily/tDHQnXMZYs1519896120651.png",
@@ -103,7 +103,7 @@ const DATAS = [
     "cover_img": "",
     "video_url": "",
     "title": "山东潍坊诸城野生动物园",
-    "url": "",
+    "url": "http://www.baxily.cn/strategy/43",
     "content": "这不是城市里的动物园，这是建在田野里的真正回归自然的动物园。",
     "imgs": [
       "http://test-oss-0.oss-cn-qingdao.aliyuncs.com/product-dir/baxily/xTtxtKNjsc1545184903690.png",
@@ -119,7 +119,7 @@ const DATAS = [
     "cover_img": "",
     "video_url": "",
     "title": "迈赫机器人大世界位于中生代白垩纪恐龙时代的属地，穿越7000万年，从远古到当今，让游客体验从蛮荒世纪到现代科技的时空转变。",
-    "url": "",
+    "url": "http://www.baxily.cn/strategy/43",
     "content": "",
     "imgs": [
       "http://test-oss-0.oss-cn-qingdao.aliyuncs.com/product-dir/baxily/2XQGY34nHM1545182190587.jpg"
@@ -133,7 +133,7 @@ const DATAS = [
     "cover_img": "",
     "video_url": "",
     "title": "迈赫机器人大世界位于中生代白垩纪恐龙时代的属地，穿越7000万年，从远古到当今，让游客体验从蛮荒世纪到现代科技的时空转变。",
-    "url": "",
+    "url": "http://www.baxily.cn/strategy/43",
     "content": "",
     "imgs": [
       "http://test-oss-0.oss-cn-qingdao.aliyuncs.com/product-dir/baxily/2XQGY34nHM1545182190587.jpg"
@@ -147,7 +147,7 @@ const DATAS = [
     "cover_img": "",
     "video_url": "",
     "title": "山东潍坊诸城野生动物园",
-    "url": "",
+    "url": "http://www.baxily.cn/strategy/43",
     "content": "这不是城市里的动物园，这是建在田野里的真正回归自然的动物园。",
     "imgs": [
       "http://test-oss-0.oss-cn-qingdao.aliyuncs.com/product-dir/baxily/xTtxtKNjsc1545184903690.png",

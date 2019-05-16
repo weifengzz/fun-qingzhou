@@ -1,4 +1,4 @@
-// pages/home/pages/banner_detail/banner_detail.js
+// pages/home/pages/detail/detail.js
 Page({
 
   /**

@@ -21,6 +21,11 @@ Component({
    * 组件的方法列表
    */
   methods: {
-
+    onTap: (e) => {
+      const data = e.currentTarget.dataset.data
+      wx.navigateTo({
+        url: '../../pages/detail/detail?data=' + JSON.stringify(data),
+      })
+    }
   }
 })

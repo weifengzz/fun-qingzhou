@@ -1,5 +1,5 @@
 <!--pages/home/components/img_item/img_item.wxml-->
-<view class="content">
+<view bindtap='onTap' data-data="{{data}}" class="content">
   <view class="content-view">
     <view class="left-view">
       <text class="title-text text-dark-color number-of-lines-2">{{data.title}}</text>

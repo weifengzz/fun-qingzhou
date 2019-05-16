@@ -9,7 +9,7 @@
   >
     <block wx:for="{{banners}}" wx:key="{{index}}">
       <swiper-item>
-        <image data-imgdata="{{item}}" bindtap='noImgTap' src="{{item.img}}" class="slide-image" mode="aspectFill" />
+        <image data-imgdata="{{item}}" bindtap='onImgTap' src="{{item.img}}" class="slide-image" mode="aspectFill" />
       </swiper-item>
     </block>
   </swiper>

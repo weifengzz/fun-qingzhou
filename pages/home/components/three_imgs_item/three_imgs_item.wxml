@@ -1,5 +1,5 @@
 <!--pages/home/components/three_imgs_item/three-imgs_item.wxml-->
-<view class="content">
+<view bindtap='onTap' data-data="{{data}}" class="content">
   <text class="title-text text-dark-color number-of-lines-2">{{data.title}}</text>
   <view class="imgs-view" >
     <view wx:for="{{data.imgs}}" wx:key="{{index}}" class="item-view">

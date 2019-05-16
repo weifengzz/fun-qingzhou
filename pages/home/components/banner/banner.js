@@ -20,7 +20,7 @@ Component({
    * 组件的方法列表
    */
   methods: {
-    noImgTap: (e) => {
+    onImgTap: (e) => {
       const imgData = e.currentTarget.dataset.imgdata
       wx.navigateTo({
         url: '../../pages/banner_detail/banner_detail?data=' + JSON.stringify(imgData),
