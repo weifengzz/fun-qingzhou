@@ -13,6 +13,9 @@
       <view wx:if="{{item.type === '2'}}">
         <three-imgs-item data="{{item}}" />
       </view>
+      <view wx:if="{{item.type === '3'}}">
+        <img-item data="{{item}}" />
+      </view>
     </block>
   </scroll-view>
 </view>

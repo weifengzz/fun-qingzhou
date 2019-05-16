@@ -1,0 +1,16 @@
+<!--pages/home/components/img_item/img_item.wxml-->
+<view class="content">
+  <view class="content-view">
+    <view class="left-view">
+      <text class="title-text text-dark-color number-of-lines-2">{{data.title}}</text>
+      <view class="bottom">
+        <text class='small-text text-light-color'>{{data.source}}</text>
+        <text class='small-text text-light-color commit-text'>{{data.comment}}评</text>
+      </view>
+    </view>
+    <view class="right-view">
+      <image mode='aspectFill' class="image" src="{{data.imgs[0]}}" />
+    </view>
+  </view>
+  <splite-line />
+</view>
