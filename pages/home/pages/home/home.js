@@ -75,7 +75,7 @@ Page({
   },
   play: function(e) {
     var that = this
-    if (video_id !== '-1') {
+    if (video_id !== '-1' && video_id !== e.currentTarget.dataset.itemdata.id) {
       var video = that.selectComponent('#video_' + video_id)
       video.paused()
     }
