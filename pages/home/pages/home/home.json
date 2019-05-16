@@ -1,4 +1,6 @@
 {
-  "usingComponents": {},
+  "usingComponents": {
+    "banner": "../../components/banner/banner"
+  },
   "navigationBarTitleText": "玩转青州"
 }

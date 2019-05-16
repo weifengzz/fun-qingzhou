@@ -1,7 +1,8 @@
 <!--pages/home/screens/home.wxml-->
 <view class="content">
-  <video 
+  <!-- <video 
   class="video"
   src="https://video.pearvideo.com/mp4/adshort/20190515/cont-1554550-13909359_adpkg-ad_hd.mp4" controls>
-  </video>
+  </video> -->
+  <banner />
 </view>
