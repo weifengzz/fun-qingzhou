@@ -1,7 +1,15 @@
 /* pages/home/components/banner/banner.wxss */
+.content {
+  display: flex;
+  height: 45vw;
+  margin-left: 30rpx;
+  margin-right: 30rpx;
+  align-items: center;
+  justify-content: center;
+}
 .swiper {
   height: 45vw;
-  width: 100vw;
+  width: 100%;
 }
 
 .slide-image {
