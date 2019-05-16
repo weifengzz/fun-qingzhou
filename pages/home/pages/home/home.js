@@ -102,5 +102,24 @@ Page({
         }
       })
     }
+  },
+  onLoadMore: function () {
+    var that = this
+    const { datas } = require('./data.js')
+    let d = Object.assign([], that.data.datas)
+    setTimeout(() => {
+      that.setData({
+        datas: [...d, ...datas]
+      })
+    }, 2000)
+  },
+  onRefresh: function () {
+    var that = this
+    const { datas } = require('./data.js')
+    setTimeout(() => {
+      that.setData({
+        datas
+      })
+    }, 2000)
   }
 })

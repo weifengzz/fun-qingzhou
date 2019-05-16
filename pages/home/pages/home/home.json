@@ -4,7 +4,8 @@
     "big-img-item": "../../components/big_img_item/big_img_item",
     "three-imgs-item": "../../components/three_imgs_item/three_imgs_item",
     "img-item": "../../components/img_item/img_item",
-    "video-item": "../../components/video_item/video_item"
+    "video-item": "../../components/video_item/video_item",
+    "list-view": "/components/common/list_view/listView"
   },
   "navigationBarTitleText": "玩转青州"
 }

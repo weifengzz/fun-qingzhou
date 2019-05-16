@@ -1,12 +1,8 @@
 <!--pages/home/screens/home.wxml-->
 <view class="content">
-  <!-- <video 
-  class="video"
-  src="https://video.pearvideo.com/mp4/adshort/20190515/cont-1554550-13909359_adpkg-ad_hd.mp4" controls>
-  </video> -->
-  <scroll-view bindscroll="scroll" scroll-y class="scroll-view">
+  <list-view emptyText='没有数据' length='{{datas.length}}' noMore="{{false}}" bind:onRefresh='onRefresh' bind:onLoadMore='onLoadMore' bind:bindScroll="scroll" scroll-y class="scroll-view">
     <banner banners="{{banners}}" />
-    <block wx:for="{{datas}}" wx:key="{{id}}">
+    <block wx:for="{{datas}}" wx:key="{{index}}">
       <view wx:if="{{item.type === '1'}}">
         <big-img-item data="{{item}}" />
       </view>
@@ -20,5 +16,5 @@
         <video-item id="{{'video_' + item.id}}" data-itemData="{{item}}" bind:bindplay="play" data="{{item}}" />
       </view>
     </block>
-  </scroll-view>
+  </list-view>
 </view>
