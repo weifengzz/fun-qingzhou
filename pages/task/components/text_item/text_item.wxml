@@ -2,11 +2,11 @@
 <view class="content">
   <view class="content-view">
     <view class="title">
-      <text class="title-text text-dark-color">任务三</text>
-      <text class="finish-text text-light-color">未完成</text>
+      <text class="title-text text-dark-color">{{data.scenic_type}}</text>
+      <text class="finish-text text-light-color">{{data.finish ? '已完成' : '未完成'}}</text>
     </view>
     <splite-line />
-    <text class="content-text text-dart-color">兰若幽深与世违，酒兰重觅未斜晖。篮舆绕入花边路，布衲趋迎竹下扉。清籁敲风和梵奏，独槐笼榻涨烟霏。吟栏倚遍诗成处，不觉金莲映月辉。</text>
-    <text class="content-text text-dart-color text-align">- 胡志康 宋朝</text>
+    <text class="content-text text-dart-color">{{data.content}}</text>
+    <text class="content-text text-dart-color text-align">{{'- ' + data.author.name+ ' ' +data.author.year}}</text>
   </view>
 </view>

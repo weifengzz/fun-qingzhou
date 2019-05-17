@@ -2,10 +2,10 @@
 <view class="content">
   <view class="content-view">
     <view class="title">
-      <text class="title-text text-dark-color">任务一</text>
-      <text class="finish-text text-light-color">未完成</text>
+      <text class="title-text text-dark-color">{{data.scenic_type}}</text>
+      <text class="finish-text text-light-color">{{data.finish ? '已完成' : '未完成'}}</text>
     </view>
     <splite-line />
-    <image src="https://gss1.bdstatic.com/9vo3dSag_xI4khGkpoWK1HF6hhy/baike/whfpf%3D640%2C360%2C0/sign=0d432a47aec27d1ea57368847de89b5a/cf1b9d16fdfaaf512aa2195c865494eef11f7a94.jpg" class='image' />
+    <image src="{{data.img}}" class='image' />
   </view>
 </view>

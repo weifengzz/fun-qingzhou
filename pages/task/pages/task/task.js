@@ -13,7 +13,7 @@ Page({
    */
   onLoad: function (options) {
     var that = this
-    const taskDatas = require('./datas.js')
+    const { taskDatas } = require('./datas.js')
     that.setData({
       datas: taskDatas
     })

@@ -1,9 +1,16 @@
 <!--pages/task/screens/task.wxml-->
 <view class="content">
-  <img-item />
-  <video-item />
-  <text-item />
-  <img-item />
-  <video-item />
-  <text-item />
+  <scroll-view>
+    <block wx:for="{{datas}}" wx:key="{{id}}">
+      <view wx:if="{{item.type === '1'}}">
+        <text-item data="{{item}}" />
+      </view>
+      <view wx:if="{{item.type === '2'}}">
+        <img-item data="{{item}}" />
+      </view>
+      <view wx:if="{{item.type === '3'}}">
+        <video-item data="{{item}}" />
+      </view>
+    </block>
+  </scroll-view>
 </view>
