@@ -15,3 +15,23 @@ page {
   height: 100%;
   width: 100%;
 }
+
+.button-view {
+  height: 100rpx;
+  width: 100rpx;
+  background-color: #6F98E3;
+  position: absolute;
+  bottom: 15vh;
+  right: 2vw;
+  border-radius: 50rpx;
+  box-shadow:0 4rpx 8rpx 2rpx #bdbdbd;
+  -webkit-box-shadow:0px 2px 4px 1px #bdbdbd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.add-image {
+  height: 40rpx;
+  width: 40rpx;
+}

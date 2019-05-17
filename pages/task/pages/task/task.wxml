@@ -1,6 +1,6 @@
 <!--pages/task/screens/task.wxml-->
 <view class="content">
-  <scroll-view>
+  <scroll-view bindscroll="scroll" scroll-y class="scroll-view">
     <block wx:for="{{datas}}" wx:key="{{id}}">
       <view wx:if="{{item.type === '1'}}">
         <text-item data="{{item}}" />
@@ -9,8 +9,11 @@
         <img-item data="{{item}}" />
       </view>
       <view wx:if="{{item.type === '3'}}">
-        <video-item data="{{item}}" />
+        <video-item id="{{'video_' + item.id}}" data-itemData="{{item}}" bind:bindplay="play" data="{{item}}" />
       </view>
     </block>
   </scroll-view>
+  <view class="button-view">
+    <image class="add-image" src="/assets/icons/add.png" />
+  </view>
 </view>

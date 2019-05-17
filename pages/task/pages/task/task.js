@@ -1,4 +1,7 @@
 // pages/task/screens/task.js
+
+let video_id = '-1';
+
 Page({
 
   /**
@@ -17,6 +20,7 @@ Page({
     that.setData({
       datas: taskDatas
     })
+    that.query = wx.createSelectorQuery()
   },
 
   /**
@@ -66,5 +70,34 @@ Page({
    */
   onShareAppMessage: function () {
 
+  },
+  play: function (e) {
+    var that = this
+    if (video_id !== '-1' && video_id !== e.currentTarget.dataset.itemdata.id) {
+      var video = that.selectComponent('#video_' + video_id)
+      video.paused()
+    }
+    video_id = e.currentTarget.dataset.itemdata.id
+  },
+  scroll: function (e) {
+    var that = this
+    if (video_id !== '-1') {
+      wx.getSystemInfo({
+        success: function (res) {
+          that.query = wx.createSelectorQuery()
+          // 获取可使用窗口高度
+          let clientHeight = res.windowHeight;
+          that.query.select('#video_' + video_id).boundingClientRect()
+          that.query.selectViewport().scrollOffset()
+          that.query.exec(function (res) {
+            if (res[0].bottom < 0 || res[0].bottom > (clientHeight + res[0].height)) {
+              var video = that.selectComponent('#video_' + video_id)
+              video && video.paused()
+              video_id = '-1'
+            }
+          })
+        }
+      })
+    }
   }
 })

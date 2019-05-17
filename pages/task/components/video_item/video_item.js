@@ -21,6 +21,14 @@ Component({
    * 组件的方法列表
    */
   methods: {
-
+    paused: function () {
+      var that = this
+      let cvc = wx.createVideoContext('video', that)
+      cvc.pause()
+    },
+    play: function () {
+      var that = this
+      that.triggerEvent('bindplay')
+    }
   }
 })
