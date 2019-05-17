@@ -1,2 +1,9 @@
 <!--pages/profile/screens/profile.wxml-->
-<text>pages/profile/screens/profile.wxml</text>
+<view class='container'>
+  <view class='head'>
+    <image class='headima' src='../../../../assets/icons/logo.png'></image>
+    <text class='headname'>张德帅</text>
+  </view>
+  <view class='actionbar'>
+  </view>
+</view>
