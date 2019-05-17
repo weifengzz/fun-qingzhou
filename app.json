@@ -8,7 +8,7 @@
     "pages/city/pages/detail/city_detail",
     "pages/home/pages/banner_detail/banner_detail",
     "pages/home/pages/detail/detail",
-    "pages/travel/screens/travel"
+    "pages/travel/pages/travel/travel"
   ],
   "tabBar": {
     "color": "",
@@ -27,7 +27,7 @@
         "text": "任务"
       },
       {
-        "pagePath": "pages/travel/screens/travel",
+        "pagePath": "pages/travel/pages/travel/travel",
         "iconPath": "assets/icons/tabBar_mine.png",
         "selectedIconPath": "assets/icons/tabBar_Smine.png",
         "text": "游记"
