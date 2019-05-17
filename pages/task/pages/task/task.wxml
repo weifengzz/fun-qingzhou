@@ -1,2 +1,9 @@
 <!--pages/task/screens/task.wxml-->
-<text>pages/task/screens/task.wxml</text>
+<view class="content">
+  <img-item />
+  <video-item />
+  <text-item />
+  <img-item />
+  <video-item />
+  <text-item />
+</view>

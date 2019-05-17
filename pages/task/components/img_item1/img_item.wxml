@@ -1,0 +1,8 @@
+<!--pages/task/components/img_item/img_item.wxml-->
+<view class="content">
+  <image class="bg-img" src="http://test-oss-0.oss-cn-qingdao.aliyuncs.com/product-dir/baxily/zcQd7HMEwy1515401387447.jpg" />
+  <view class="bg-view" />
+  <view class="content-view">
+    <text class="text">常记溪亭日暮，沉醉不知归路。兴尽晚回舟，误入藕花深处。争渡，争渡，惊起一滩鸥鹭</text>
+  </view>
+</view>

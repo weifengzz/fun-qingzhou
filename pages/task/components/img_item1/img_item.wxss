@@ -1,0 +1,44 @@
+/* pages/task/components/img_item/img_item.wxss */
+@import "/app.wxss";
+
+.content {
+  margin: 40rpx;
+  width: 670rpx;
+  box-shadow:0 6rpx 10rpx 2rpx #bdbdbd;
+  -webkit-box-shadow:0px 3px 5px 1px #bdbdbd;
+  border-radius: 10rpx;
+  overflow: hidden;
+  position: relative;
+}
+
+.bg-img {
+  -webkit-filter: blur(5px);
+  filter: blur(5px);
+  border-radius: 10rpx;
+  overflow: hidden;
+  opacity: 1;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+}
+
+.bg-view {
+  border-radius: 10rpx;
+  opacity: 0.5;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  z-index: 2;
+}
+
+.content-view {
+  border-radius: 10rpx;
+  margin: 30rpx;
+}
+
+.text {
+  font-size: 16;
+  color: white;
+}

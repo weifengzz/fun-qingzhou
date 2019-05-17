@@ -1,0 +1,45 @@
+/* pages/task/components/img_item/img_item.wxss */
+
+@import "/app.wxss";
+
+.content {
+  margin: 40rpx;
+  width: 670rpx;
+  box-shadow:0 6rpx 10rpx 2rpx #bdbdbd;
+  -webkit-box-shadow:0px 3px 5px 1px #bdbdbd;
+  border-radius: 10rpx;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.content-view {
+  margin: 30rpx;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  height: 50rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 30rpx;
+}
+
+.title-text {
+  flex: 1;
+  font-size: 32rpx;
+}
+
+.finish-text {
+  font-size: 28rpx;
+}
+
+.image {
+  width: 610rpx;
+  height: 400rpx;
+  margin-top: 30rpx;
+  border-radius: 10rpx;
+}

@@ -1,4 +1,8 @@
 {
-  "usingComponents": {},
+  "usingComponents": {
+    "img-item": "../../components/img_item/img_item",
+    "video-item": "../../components/video_item/video_item",
+    "text-item": "../../components/text_item/text_item"
+  },
   "navigationBarTitleText": "任务大厅"
 }

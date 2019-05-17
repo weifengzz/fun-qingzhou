@@ -1,0 +1,12 @@
+<!--pages/task/components/video_item/vide_item.wxml-->
+<view class="content">
+  <view class="content-view">
+    <view class="title">
+      <text class="title-text text-dark-color">任务二</text>
+      <text class="finish-text text-light-color">未完成</text>
+    </view>
+    <splite-line />
+    <video bindplay="play" id="video" title="{{data.title}}" object-fit="cover" poster="https://gss1.bdstatic.com/9vo3dSag_xI4khGkpoWK1HF6hhy/baike/whfpf%3D640%2C360%2C0/sign=0d432a47aec27d1ea57368847de89b5a/cf1b9d16fdfaaf512aa2195c865494eef11f7a94.jpg" class="video" src="https://vdse.bdstatic.com//7e20d2b93e339acdfcbe21b0672e5852?authorization=bce-auth-v1/fb297a5cc0fb434c971b8fa103e8dd7b/2017-05-11T09:02:31Z/-1//5184546436d960028ec0d69728eae1a1299779cb7f17037a1f33d3f2fb228c29" controls>
+  </video>
+  </view>
+</view>

@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "splite-line": "/components/common/splite_line/splite_line"
+  }
+}
