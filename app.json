@@ -7,7 +7,8 @@
     "pages/profile/pages/profile/profile",
     "pages/city/pages/detail/city_detail",
     "pages/home/pages/banner_detail/banner_detail",
-    "pages/home/pages/detail/detail"
+    "pages/home/pages/detail/detail",
+    "pages/travel/screens/travel"
   ],
   "tabBar": {
     "color": "",
@@ -24,6 +25,12 @@
         "iconPath": "assets/icons/tabBar_mine.png",
         "selectedIconPath": "assets/icons/tabBar_Smine.png",
         "text": "任务"
+      },
+      {
+        "pagePath": "pages/travel/screens/travel",
+        "iconPath": "assets/icons/tabBar_mine.png",
+        "selectedIconPath": "assets/icons/tabBar_Smine.png",
+        "text": "游记"
       },
       {
         "pagePath": "pages/city/pages/city/city",
