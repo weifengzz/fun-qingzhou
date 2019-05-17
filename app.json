@@ -42,7 +42,7 @@
         "pagePath": "pages/profile/pages/profile/profile",
         "iconPath": "assets/icons/tabBar_mine.png",
         "selectedIconPath": "assets/icons/tabBar_Smine.png",
-        "text": "我的1"
+        "text": "我的"
       }
     ]
   },
