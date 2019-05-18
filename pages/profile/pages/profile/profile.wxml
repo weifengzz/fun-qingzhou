@@ -4,6 +4,13 @@
     <image class='headima' src='../../../../assets/icons/logo.png'></image>
     <text class='headname'>张德帅</text>
   </view>
-  <view class='actionbar'>
+  <view class='actionbar' bindtap='settingClick'>
+  <text>我的任务</text>
+  </view>
+   <view class='actionbar' bindtap='settingClick'>
+   <text>我的游记</text>
+  </view>
+   <view class='actionbar' bindtap='settingClick'>
+   <text>设置</text>
   </view>
 </view>

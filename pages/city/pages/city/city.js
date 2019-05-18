@@ -86,6 +86,7 @@ Page({
    * 页面的初始数据
    */
   data: {
+    title: '青州古城景区',
     location: {
       longitude: 118.47966,
       latitude: 36.68456

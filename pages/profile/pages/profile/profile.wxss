@@ -5,7 +5,7 @@ page {
 }
 
 .container {
-  background-color: #fff;
+  background-color: #f2f2f2;
   height: 100%;
   width: 100%;
   display: flex;
@@ -32,7 +32,11 @@ page {
 }
 
 .actionbar{
-  color: #f0f0f0;
+  margin-top: 5rpx;
+  background-color: #fff;
   width: 100vw;
-  height: 50rpx;
+  height: 100rpx;
+  display: flex;
+  align-items: center;
+  padding-left: 50rpx;
 }

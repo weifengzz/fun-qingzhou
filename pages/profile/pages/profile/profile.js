@@ -7,6 +7,11 @@ Page({
   data: {
 
   },
+  settingClick:function(){
+    wx.navigateTo({
+      url: '../setting/setting',
+    })
+  },
 
   /**
    * 生命周期函数--监听页面加载

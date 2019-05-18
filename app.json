@@ -8,7 +8,8 @@
     "pages/city/pages/detail/city_detail",
     "pages/home/pages/banner_detail/banner_detail",
     "pages/home/pages/detail/detail",
-    "pages/travel/pages/travel/travel"
+    "pages/travel/pages/travel/travel",
+    "pages/profile/pages/setting/setting"
   ],
   "tabBar": {
     "color": "",
@@ -58,5 +59,4 @@
       "desc": "你的位置信息将用于您当前定位"
     }
   }
-
 }
