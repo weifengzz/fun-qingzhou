@@ -21,3 +21,11 @@ page {
   margin-bottom: 30rpx;
   color: #00a0f0;
 }
+
+.controls {
+  position: relative;
+  top: 60%;
+  height: 50px;
+  left: 30rpx;
+  display: flex;
+}

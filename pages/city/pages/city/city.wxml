@@ -1,10 +1,14 @@
 <!--pages/city/screens/city.wxml-->
 <map id="city" class="map" longitude="{{location.longitude}}" latitude="{{location.latitude}}" scale="{{scale}}" controls="{{controls}}" bindregionchange="bindregionchange" markers="{{markers}}" bindmarkertap="markertap" bindcallouttap="callouttap"  show-location>
-  <!-- <cover-view>
-    <cover-image src= "/assets/images/bg_img.jpg" style="height: 200rpx;width: 100rpx;" />
-  </cover-view> -->
   <view class='headline'>
   <text class='title'>{{title}}</text>
   </view>
-
+  <!-->
+  <cover-view class='controls'>
+    <cover-image src= "/assets/images/bg_img.jpg" style="height: 100rpx;width: 100rpx;" />
+  </cover-view>
+  <cover-view class='controls'>
+    <cover-image src= "/assets/images/bg_img.jpg" style="height: 100rpx;width: 100rpx;" />
+  </cover-view>
+  <-->
 </map>
