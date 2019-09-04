@@ -1,2 +1,22 @@
 <!--pages/travel/screens/travel.wxml-->
-<text>pages/travel/screens/travel.wxml</text>
+<wxs src="./utils.wxs" module="utils"></wxs>
+
+<view class="content">
+  <view class="item" wx:for="{{list}}" wx:key="{{id}}">
+    <view bindtap="onItemTap" data-item="{{item}}" class="item-content">
+      <view class="image-view">
+        <image class="item-image" src="{{item.background_img[0]}}" />
+        <view class="head-view">
+          <image class="head-image" src="{{item.head_img}}" />
+          <text class="head-text">{{item.author}}</text>
+        </view>
+      </view>
+      <view class="item-content-view">
+        <view class="title-view">
+          <text class="title-text text-dark-color">{{item.title}}</text>
+        </view>
+        <text class="item-text-content text-middle-color">{{utils.getFirstText(item.content)}}</text>
+      </view>
+    </view>
+  </view>
+</view>

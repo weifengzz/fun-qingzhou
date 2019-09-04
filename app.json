@@ -9,7 +9,8 @@
     "pages/home/pages/banner_detail/banner_detail",
     "pages/home/pages/detail/detail",
     "pages/travel/pages/travel/travel",
-    "pages/profile/pages/setting/setting"
+    "pages/profile/pages/setting/setting",
+    "pages/travel/pages/detail/detail"
   ],
   "tabBar": {
     "color": "",

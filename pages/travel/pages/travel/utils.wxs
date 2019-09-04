@@ -1,0 +1,13 @@
+var getFirstText = function (datas) {
+  for (var i = 0; i < datas.length; i++) {
+    if (datas[i].type === "text") {
+      return datas[i].content
+    }
+  }
+}
+
+// module.exports.getFirstText = getFirstText
+
+module.exports = {
+  getFirstText: getFirstText
+}

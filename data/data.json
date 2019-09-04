@@ -1,0 +1,36 @@
+{
+  "travel": [
+    {
+      "id": 1001,
+      "author": "易小川",
+      "head_img": "http://img2.imgtn.bdimg.com/it/u=3615831237,1510664097&fm=26&gp=0.jpg",
+      "title": "畅游青州古城",
+      "background_img": [
+        "http://img.zcool.cn/community/0174a95b8fe7b4a80121a0f7e7d256.jpg@1280w_1l_2o_100sh.jpg",
+        "http://5b0988e595225.cdn.sohucs.com/images/20181111/b4898ca51128477699e72598bbc6d1cf.jpeg"
+      ],
+      "content": [
+        {
+          "type": "text",
+          "content": "青州古城是古九州之一，有7000余年的发展史，5000余年的文明史，十二年的国都辉煌，先后存在过广县城、广固城、南阳城、东阳城、东关圩子城、旗城等六座古城池。"
+        },
+        {
+          "type": "image",
+          "content": "http://p1.qhimgs4.com/t0159b1c83e9da8343d.jpg"
+        },
+        {
+          "type": "text",
+          "content": "2013年11月18日，青州被国务院评为“国家历史文化名城”。2017年2月16日，国家旅游局面向社会公示了20家新5A景区，山东省潍坊市青州古城 [1]  景区入选5A级景区。"
+        },
+        {
+          "type": "text",
+          "content": "2017年2月25日，山东省潍坊市青州古城新晋为国家5A级旅游景区。 [2] "
+        },
+        {
+          "type": "image",
+          "content": "http: //img.zcool.cn/community/012fe4597aa76ea8012193a38db315.JPG@3000w_1l_2o_100sh.jpg"
+        }
+      ]
+    }
+  ]
+}

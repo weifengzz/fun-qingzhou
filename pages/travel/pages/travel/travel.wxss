@@ -1,1 +1,73 @@
 /* pages/travel/screens/travel.wxss */
+view {
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  height: 100%;
+  width: 100%;
+  background-color: #f2f2f2;
+}
+
+.item {
+  width: 100%;
+}
+
+.item-content {
+  width: 100%;
+  background-color: white;
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+}
+
+.image-view {
+  height: 40vw;
+  width: 100vw;
+  position: relative;
+}
+
+.item-image {
+  height: 40vw;
+  width: 100vw;
+}
+
+.head-view {
+  height: 50rpx;
+  position: absolute;
+  top: 30rpx;
+  left: 30rpx;
+  flex-direction: row;
+  align-items: center;
+}
+
+.head-image {
+  height: 50rpx;
+  width: 50rpx;
+  border-radius: 25rpx;
+}
+
+.head-text {
+  margin-left: 10rpx;
+  font-size: 12px;
+  color: white;
+}
+
+.item-content-view {
+  padding: 30rpx;
+}
+
+.title-view {
+  width: 100%;
+  align-items: center;
+}
+
+.title-text {
+  font-size: 14px;
+}
+
+.item-text-content {
+  font-size: 12px;
+  line-height: 20px;
+  margin-top: 20rpx;
+}
