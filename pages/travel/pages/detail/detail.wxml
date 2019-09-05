@@ -1,2 +1,47 @@
 <!--pages/travel/pages/detail/detail.wxml-->
-<text>pages/travel/pages/detail/detail.wxml</text>
+<view class="content">
+  <scroll-view class="scroll-view" scroll-y bindscroll="scroll">
+    <view>
+      <!-- 头部界面 -->
+      <view class="header-view">
+        <image mode="aspectFill" class="header-image" src="{{itemData.background_img}}" />
+        <view class="author-view" style="top: {{statusBarHeight + 40}}px">
+          <image class="author-img" src="{{itemData.head_img}}"></image>
+          <text class="auter-name">{{itemData.author}}</text>
+        </view>
+        <text class="read-text">{{itemData.reader}} 阅读</text>
+      </view>
+      <!-- 文章标题 -->
+      <view class="artical-title-view">
+        <text class="text-small-size text-middle-color">{{itemData.date}}</text>
+        <text class="artical-title text-large-size text-dark-color">{{itemData.title}}</text>
+        <text class=" text-middle-size text-middle-color">- 原创 -</text>
+      </view>
+      <!-- 文章内容 -->
+      <view wx:for="{{itemData.content}}" wx:key="{{index}}">
+        <view class="artical-text-view" wx:if="{{item.type === 'text'}}">
+          <text class="artical-title-text text-middle-size text-dark-color">{{item.content}}</text>
+        </view>
+        <view class="artical-image-view" wx:if="{{item.type === 'image'}}">
+          <image class="artical-image" src="{{item.content}}"></image>
+        </view>
+      </view>
+    </view>
+  </scroll-view>
+  <!-- 导航栏半透明背景 -->
+  <view wx:if="{{showHeader}}" class="title-view-bg" style="height: {{statusBarHeight + 60}}px">
+  </view>
+  <!-- 自定义导航栏 -->
+  <view class="title-view" style="margin-top: {{statusBarHeight}}px">
+    <view class="icon-view">
+    <icon bindtap="onBackPress" type="cancel" color="white" size="24"></icon>
+    </view>
+    <view wx:if="{{showHeader}}" class="title-center">
+      <view class="title-center-center">
+        <image class="title-author-img" src="{{itemData.head_img}}"></image>
+        <text class="title-center-text text-small-size">{{itemData.author}}</text>
+      </view>
+    </view>
+    <view class="icon-view"></view>
+  </view>
+</view>

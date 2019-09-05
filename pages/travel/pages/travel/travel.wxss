@@ -22,13 +22,13 @@ view {
 }
 
 .image-view {
-  height: 40vw;
+  height: 50vw;
   width: 100vw;
   position: relative;
 }
 
 .item-image {
-  height: 40vw;
+  height: 50vw;
   width: 100vw;
 }
 

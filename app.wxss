@@ -39,7 +39,7 @@ page {
   font-size: 32rpx;
 }
 /**小文字**/
-.text-middle-size {
+.text-small-size {
   font-size: 28rpx;
 }
 /**内容padding间距**/

@@ -11,19 +11,7 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad(options) {
-    wx.request({
-      url: 'http://127.0.0.1:3000/travel',
-      data: {},
-      method: "GET",
-      header: {
-        'content-type': 'application/json' // 默认值
-      },
-      success: (res) => {
-        this.setData({
-          list: res.data
-        })
-      }
-    })
+    this.requestData()
   },
   /**
    * 生命周期函数--监听页面显示
@@ -35,7 +23,7 @@ Page({
    * 页面相关事件处理函数--监听用户下拉动作
    */
   onPullDownRefresh() {
-
+    this.requestData()
   },
 
   /**
@@ -47,7 +35,24 @@ Page({
   onItemTap(e) {
     const data = e.currentTarget.dataset.item
     wx.navigateTo({
-      url: '../detail/detail?data=' + JSON.stringify(data),
+      url: '../detail/detail?id=' + data.id,
+    })
+  },
+  // 数据请求
+  requestData () {
+    wx.request({
+      url: 'http://192.168.1.106:3000/travel',
+      data: {},
+      method: "GET",
+      header: {
+        'content-type': 'application/json' // 默认值
+      },
+      success: (res) => {
+        this.setData({
+          list: res.data
+        })
+        wx.stopPullDownRefresh()
+      }
     })
   }
 })

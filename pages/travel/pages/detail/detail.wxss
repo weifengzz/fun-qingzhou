@@ -1,1 +1,127 @@
 /* pages/travel/pages/detail/detail.wxss */
+view {
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  height: 100%;
+  width: 100%;
+}
+
+.header-view {
+  height: 60vw;
+  width: 100vw;
+  position: relative;
+}
+
+.header-image {
+  height: 60vw;
+  width: 100vw;
+}
+
+.title-view-bg {
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 99;
+}
+
+.title-view {
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 60px;
+  z-index: 99;
+  flex-direction: row;
+}
+
+.author-view {
+  position: absolute;
+  left: 30rpx;
+  margin-top: 20rpx;
+  flex-direction: row;
+  align-items: center;
+}
+
+.author-img {
+  height: 80rpx;
+  width: 80rpx;
+  border-radius: 40rpx;
+}
+
+.auter-name {
+  font-size: 14px;
+  color: white;
+  margin-left: 10rpx;
+}
+
+.read-text {
+  position: absolute;
+  bottom: 30rpx;
+  right: 30rpx;
+  font-size: 12px;
+  color: white;
+}
+
+.artical-title-view {
+  padding: 50rpx;
+  align-items: center;
+}
+
+.artical-title {
+  margin-top: 50rpx;
+  margin-bottom: 50rpx;
+}
+
+.artical-text-view {
+  padding: 30rpx;
+}
+
+.artical-title-text {
+  line-height: 50rpx;
+}
+
+.artical-image {
+  height: 50vw;
+  width: 100vw;
+  margin-top: 30rpx;
+  margin-bottom: 30rpx;
+}
+
+.scroll-view {
+  height: 100vh;
+  width: 100vw;
+}
+
+.title-center {
+  flex: 3;
+  padding-top: 10px;
+  align-items: center;
+}
+
+.title-center-center {
+  flex-direction: row;
+  align-items: center;
+}
+
+.icon-view {
+  flex: 1;
+  padding-left: 30rpx;
+  padding-top: 10px;
+}
+
+.title-center-text {
+  color: white
+}
+
+.title-author-img {
+  height: 50rpx;
+  width: 50rpx;
+  border-radius: 25rpx;
+  margin-right: 10rpx;
+}

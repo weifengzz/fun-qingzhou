@@ -5,7 +5,7 @@
   <view class="item" wx:for="{{list}}" wx:key="{{id}}">
     <view bindtap="onItemTap" data-item="{{item}}" class="item-content">
       <view class="image-view">
-        <image class="item-image" src="{{item.background_img[0]}}" />
+        <image class="item-image" src="{{item.background_img}}" />
         <view class="head-view">
           <image class="head-image" src="{{item.head_img}}" />
           <text class="head-text">{{item.author}}</text>

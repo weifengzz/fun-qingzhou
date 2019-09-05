@@ -5,14 +5,29 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    itemData: {},
+    statusBarHeight: getApp().globalData.statusBarHeight,
+    showHeader: false
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
-  onLoad: function (options) {
-
+  onLoad(options) {
+    const { id } = options
+    wx.request({
+      url: `http://192.168.1.106:3000/travel/${id}`,
+      data: {},
+      method: "GET",
+      header: {
+        'content-type': 'application/json' // 默认值
+      },
+      success: (res) => {
+        this.setData({
+          itemData: res.data
+        })
+      }
+    })
   },
 
   /**
@@ -62,5 +77,22 @@ Page({
    */
   onShareAppMessage: function () {
 
+  },
+  // 返回按钮
+  onBackPress() {
+    wx.navigateBack()
+  },
+  // 滑动事件
+  scroll(e) {
+    let top = e.detail.scrollTop
+    if (top > 100 && !this.data.showHeader) {
+      this.setData({
+        showHeader: true
+      })
+    } else if (top < 100 && this.data.showHeader) {
+      this.setData({
+        showHeader: false
+      })
+    }
   }
 })

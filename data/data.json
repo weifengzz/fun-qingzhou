@@ -4,11 +4,10 @@
       "id": 1001,
       "author": "易小川",
       "head_img": "http://img2.imgtn.bdimg.com/it/u=3615831237,1510664097&fm=26&gp=0.jpg",
+      "reader": 120,
+      "date": "2019-08-04",
       "title": "畅游青州古城",
-      "background_img": [
-        "http://img.zcool.cn/community/0174a95b8fe7b4a80121a0f7e7d256.jpg@1280w_1l_2o_100sh.jpg",
-        "http://5b0988e595225.cdn.sohucs.com/images/20181111/b4898ca51128477699e72598bbc6d1cf.jpeg"
-      ],
+      "background_img":      "http://img.zcool.cn/community/0174a95b8fe7b4a80121a0f7e7d256.jpg@1280w_1l_2o_100sh.jpg",
       "content": [
         {
           "type": "text",
@@ -28,7 +27,93 @@
         },
         {
           "type": "image",
-          "content": "http: //img.zcool.cn/community/012fe4597aa76ea8012193a38db315.JPG@3000w_1l_2o_100sh.jpg"
+          "content": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1567597501919&di=e81a301fa89427e9b2419915560b0e46&imgtype=0&src=http%3A%2F%2Fimg5.iqilu.com%2Fc%2Fu%2F2017%2F0924%2F1506233741623.jpg"
+        },
+        {
+          "type": "image",
+          "content": "http://p1.qhimgs4.com/t0159b1c83e9da8343d.jpg"
+        },
+        {
+          "type": "text",
+          "content": "2017年2月25日，山东省潍坊市青州古城新晋为国家5A级旅游景区。 [2] "
+        }
+      ]
+    },
+    {
+      "id": 1002,
+      "author": "张小凡",
+      "head_img": "http://b-ssl.duitang.com/uploads/item/201412/16/20141216101833_R5taQ.jpeg",
+      "reader": 140,
+      "date": "2019-08-06",
+      "title": "云门仙境",
+      "background_img": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1567600829202&di=2b6bdc4126030bc27eeb0ac73522995b&imgtype=0&src=http%3A%2F%2Fwww.gotosd.com%2Fu%252405%4031%2FUploadFile%2F2013928113921340.jpg",
+      "content": [
+        {
+          "type": "text",
+          "content": "云门山，AAAAA级旅游景区，国家重点风景名胜区，国家地质公园，是1985年山东省政府公布的第一批省级风景名胜区之一。位于山东省青州市城南2.5公里处，海拔421米。平原拔笏，松荫盖足，山虽不高而有千仞之势，自古为鲁中名山。主峰大云顶，有洞如门，高阔过丈，南北相通，远望如明镜高悬，夏秋时节，云雾缭绕，穿洞而过，如滚滚波涛，将山顶庙宇托于其上，若隐若现，虚无缥缈，宛若仙境，蔚为壮观，谓之“云门”，或称“云门仙境”。在山东乃至全国享有盛誉。2014年起，作为青州古城旅游区三大板块之一，启动争创AAAAA景区工作，2017年2月16日，国家旅游局面向社会公示了20家新5A景区，青州市青州古城景区入选5A级景区，云门山景区也正式步入AAAAA景区行列。"
+        },
+        {
+          "type": "image",
+          "content": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1567600829201&di=0d815ec289a79d95159e11f76ef0b74e&imgtype=0&src=http%3A%2F%2Fn.sinaimg.cn%2Fsinacn18%2F184%2Fw640h344%2F20180315%2F8be8-fyshfup8392919.jpg"
+        },
+        {
+          "type": "text",
+          "content": "云门山位于山东省青州市城南2.5公里处，海拔421米。属于国家5A级风景名胜区。她北衔金凤山、南依劈山、东临磨脐山、向西与驼山隔着瀑水涧遥遥相望，在她东北面的平原上，散布着几个低矮平缓的小山丘，青翠碧绿，称大奇山、马鞍山、卧蟾山、将军山、趴牯山以及火石山。以她美丽、俊俏的身姿和特殊的地理环境独具风貌。在夏秋季节，云门山南侧的“云窟”开闸放云，即时白云腾空而出，经云门洞冉冉升天，云门山因此得名。"
+        },
+        {
+          "type": "text",
+          "content": "置身山巅，望云海时隐时现，云门仙境，名不虚传；天气晴朗时，绿地伴青山，层山叠峦，北国风光更使您陶醉，令您流连忘返。云门山早在隋、唐、宋时期就深受佛、道两家的青睐。山上有隋、唐石窟造像五处，石佛二百七十二尊，历代文人墨客、善男信女的题刻、碑碣，遍布云门山摩崖。诗人王心鉴《游云门山》：“闲访云门山，悠然踏龟鳞。移步皆苍翠，招手即白云。勿扰陈抟梦，恍闻范公吟。明月照青州，仙境蜕俗痕。”  这首诗把青州描绘成了个天上人间。"
+        },
+        {
+          "type": "image",
+          "content": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1567600829200&di=764a56827d5fd97df68bcf3053299fb8&imgtype=0&src=http%3A%2F%2Fimg.pconline.com.cn%2Fimages%2Fupload%2Fupc%2Ftx%2Fphotoblog%2F1801%2F13%2Fc1%2F72529766_1515832516143_mthumb.jpg"
+        },
+        {
+          "type": "image",
+          "content": "http://p1.qhimgs4.com/t0159b1c83e9da8343d.jpg"
+        },
+        {
+          "type": "text",
+          "content": "云门献寿在云门山巅之阴，有一海内罕见的巨大摩崖石刻“寿”字，人称为“云门献寿”。明嘉靖年间为衡王朱戴圭祝寿，衡王府内掌司冀阳周全，以“寿比南山”之意，在山阴处摩崖上镌刻了国内外罕见的大“寿”字以讨好衡王。大“寿”字，字体结构严谨，端庄大方，坐南朝北，通高7.5米，宽 3.7米，仅“寿”字下面的“寸” 字就高达2.23米。所以当地人有“人无寸高”、“寿比南山”之说。众多的中外游客都把能到云门山参拜大寿字作为来青州旅游的首选，以表达对自己和家人最美好的祝福。"
+        }
+      ]
+    },
+    {
+      "id": 1003,
+      "author": "张小凡",
+      "head_img": "http://b-ssl.duitang.com/uploads/item/201412/16/20141216101833_R5taQ.jpeg",
+      "reader": 140,
+      "date": "2019-08-06",
+      "title": "云门仙境",
+      "background_img": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1567600829202&di=2b6bdc4126030bc27eeb0ac73522995b&imgtype=0&src=http%3A%2F%2Fwww.gotosd.com%2Fu%252405%4031%2FUploadFile%2F2013928113921340.jpg",
+      "content": [
+        {
+          "type": "text",
+          "content": "云门山，AAAAA级旅游景区，国家重点风景名胜区，国家地质公园，是1985年山东省政府公布的第一批省级风景名胜区之一。位于山东省青州市城南2.5公里处，海拔421米。平原拔笏，松荫盖足，山虽不高而有千仞之势，自古为鲁中名山。主峰大云顶，有洞如门，高阔过丈，南北相通，远望如明镜高悬，夏秋时节，云雾缭绕，穿洞而过，如滚滚波涛，将山顶庙宇托于其上，若隐若现，虚无缥缈，宛若仙境，蔚为壮观，谓之“云门”，或称“云门仙境”。在山东乃至全国享有盛誉。2014年起，作为青州古城旅游区三大板块之一，启动争创AAAAA景区工作，2017年2月16日，国家旅游局面向社会公示了20家新5A景区，青州市青州古城景区入选5A级景区，云门山景区也正式步入AAAAA景区行列。"
+        },
+        {
+          "type": "image",
+          "content": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1567600829201&di=0d815ec289a79d95159e11f76ef0b74e&imgtype=0&src=http%3A%2F%2Fn.sinaimg.cn%2Fsinacn18%2F184%2Fw640h344%2F20180315%2F8be8-fyshfup8392919.jpg"
+        },
+        {
+          "type": "text",
+          "content": "云门山位于山东省青州市城南2.5公里处，海拔421米。属于国家5A级风景名胜区。她北衔金凤山、南依劈山、东临磨脐山、向西与驼山隔着瀑水涧遥遥相望，在她东北面的平原上，散布着几个低矮平缓的小山丘，青翠碧绿，称大奇山、马鞍山、卧蟾山、将军山、趴牯山以及火石山。以她美丽、俊俏的身姿和特殊的地理环境独具风貌。在夏秋季节，云门山南侧的“云窟”开闸放云，即时白云腾空而出，经云门洞冉冉升天，云门山因此得名。"
+        },
+        {
+          "type": "text",
+          "content": "置身山巅，望云海时隐时现，云门仙境，名不虚传；天气晴朗时，绿地伴青山，层山叠峦，北国风光更使您陶醉，令您流连忘返。云门山早在隋、唐、宋时期就深受佛、道两家的青睐。山上有隋、唐石窟造像五处，石佛二百七十二尊，历代文人墨客、善男信女的题刻、碑碣，遍布云门山摩崖。诗人王心鉴《游云门山》：“闲访云门山，悠然踏龟鳞。移步皆苍翠，招手即白云。勿扰陈抟梦，恍闻范公吟。明月照青州，仙境蜕俗痕。”  这首诗把青州描绘成了个天上人间。"
+        },
+        {
+          "type": "image",
+          "content": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1567600829200&di=764a56827d5fd97df68bcf3053299fb8&imgtype=0&src=http%3A%2F%2Fimg.pconline.com.cn%2Fimages%2Fupload%2Fupc%2Ftx%2Fphotoblog%2F1801%2F13%2Fc1%2F72529766_1515832516143_mthumb.jpg"
+        },
+        {
+          "type": "image",
+          "content": "http://p1.qhimgs4.com/t0159b1c83e9da8343d.jpg"
+        },
+        {
+          "type": "text",
+          "content": "云门献寿在云门山巅之阴，有一海内罕见的巨大摩崖石刻“寿”字，人称为“云门献寿”。明嘉靖年间为衡王朱戴圭祝寿，衡王府内掌司冀阳周全，以“寿比南山”之意，在山阴处摩崖上镌刻了国内外罕见的大“寿”字以讨好衡王。大“寿”字，字体结构严谨，端庄大方，坐南朝北，通高7.5米，宽 3.7米，仅“寿”字下面的“寸” 字就高达2.23米。所以当地人有“人无寸高”、“寿比南山”之说。众多的中外游客都把能到云门山参拜大寿字作为来青州旅游的首选，以表达对自己和家人最美好的祝福。"
         }
       ]
     }
