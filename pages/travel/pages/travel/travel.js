@@ -41,7 +41,7 @@ Page({
   // 数据请求
   requestData () {
     wx.request({
-      url: 'http://192.168.1.106:3000/travel',
+      url: 'http://192.168.1.111:3000/travel',
       data: {},
       method: "GET",
       header: {

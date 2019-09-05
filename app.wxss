@@ -64,3 +64,12 @@ page {
   -webkit-box-orient:vertical;
   -webkit-line-clamp:2;
 }
+
+/**控制文本显示三行**/
+.number-of-lines-3 {
+  overflow:hidden;
+  text-overflow:ellipsis;
+  display:-webkit-box;
+  -webkit-box-orient:vertical;
+  -webkit-line-clamp:3;
+}

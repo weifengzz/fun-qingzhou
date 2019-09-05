@@ -1,0 +1,1 @@
+json-server --watch data.json -h 192.168.1.111

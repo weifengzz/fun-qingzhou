@@ -15,7 +15,7 @@
         <view class="title-view">
           <text class="title-text text-dark-color">{{item.title}}</text>
         </view>
-        <text class="item-text-content text-middle-color">{{utils.getFirstText(item.content)}}</text>
+        <text class="item-text-content text-middle-color number-of-lines-3">{{utils.getFirstText(item.content)}}</text>
       </view>
     </view>
   </view>

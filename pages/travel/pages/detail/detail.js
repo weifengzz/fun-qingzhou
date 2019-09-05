@@ -16,7 +16,7 @@ Page({
   onLoad(options) {
     const { id } = options
     wx.request({
-      url: `http://192.168.1.106:3000/travel/${id}`,
+      url: `http://192.168.1.111:3000/travel/${id}`,
       data: {},
       method: "GET",
       header: {
