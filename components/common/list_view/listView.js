@@ -82,6 +82,7 @@ Component({
      * 滚动事件
      */
     scrollListener: function(e) {
+      console.log(e.detail)
       if (e.detail.scrollTop == 0) {
         //到顶部了
         this.data.scrollToTop = true;

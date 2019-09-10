@@ -13,7 +13,7 @@
     "pages/travel/pages/detail/detail"
   ],
   "tabBar": {
-    "color": "",
+    "color": "#000",
     "selectedColor": "#6F98E3",
     "list": [
       {
